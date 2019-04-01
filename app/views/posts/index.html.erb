@@ -1,7 +1,7 @@
-<% @posts.each do |post| %>
-  <p><%= post.message %></p>
-<% end %>
 
-<%= link_to new_post_path do %>
-  New post
-<% end %>
+<h1>Instagram</h1>
+<div>
+	<%= link_to 'Sign up', sign_up_path %>
+
+	<%= link_to 'New post', new_post_path %>
+</div>
